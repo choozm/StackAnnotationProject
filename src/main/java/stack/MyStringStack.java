@@ -40,7 +40,7 @@ public class MyStringStack {
      */
     public String pop() throws NoSuchElementException {
         String result = v.lastElement();
-        //v.remove(result);
+        v.remove(result);
         return result;
     }
 
