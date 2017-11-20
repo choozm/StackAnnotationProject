@@ -27,6 +27,8 @@ gradle-app.setting
 
 # Package Files #
 *.jar
+# Ignore JAR file except this one
+!gradle-wrapper.jar
 *.war
 *.ear
 *.zip
